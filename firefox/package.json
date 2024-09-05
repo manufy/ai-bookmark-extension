@@ -1,0 +1,11 @@
+{
+  "name": "bookmark-ai-extension-chrome",
+  "version": "1.0.0",
+  "description": "AI powered bookmark manager for Firefox",
+  "scripts": {
+    "build": "web-ext build"
+  },
+  "devDependencies": {
+    "web-ext": "^7.12.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "c",
+  "version": "1.0",
+  "description": "AI powered bookmark manager",
+  "icons": {
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "action": {
+    "default_icon": "icons/icon-48.png",
+    "default_title": "AI Bookmark Manager",
+    "default_popup": "popup/popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
