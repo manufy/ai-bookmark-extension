@@ -63,11 +63,21 @@ jspm_packages/
 .env.test
 
 # Xcode
-#*.xcodeproj/*
-#!*.xcodeproj/project.pbxproj
-#!*.xcodeproj/xcshareddata/
-#!*.xcworkspace/contents.xcworkspacedata
-#**/xcshareddata/WorkspaceSettings.xcsettings
+.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# Xcode rules for safari/xcode-ai-bookmark-extension-project
+safari/xcode-ai-bookmark-extension-project/**/*.xcodeproj/*
+!safari/xcode-ai-bookmark-extension-project/**/*.xcodeproj/project.pbxproj
+!safari/xcode-ai-bookmark-extension-project/**/*.xcodeproj/xcshareddata/
+!safari/xcode-ai-bookmark-extension-project/**/*.xcworkspace/contents.xcworkspacedata
+safari/xcode-ai-bookmark-extension-project/**/xcshareddata/WorkspaceSettings.xcsettings
+
+# Safari extension specific (uncomment if needed)
+# safari/xcode-ai-bookmark-extension-project/**/*.xcarchive
 
 # Safari extension specific
 #*.xcarchive

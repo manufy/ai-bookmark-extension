@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3272BCCD2C89CFC100A67267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272BCCC2C89CFC100A67267 /* AppDelegate.swift */; };
+		3272BCD12C89CFC100A67267 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3272BCD02C89CFC100A67267 /* Base */; };
+		3272BCD32C89CFC100A67267 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3272BCD22C89CFC100A67267 /* Icon.png */; };
+		3272BCD52C89CFC100A67267 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 3272BCD42C89CFC100A67267 /* Style.css */; };
+		3272BCD72C89CFC100A67267 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 3272BCD62C89CFC100A67267 /* Script.js */; };
+		3272BCD92C89CFC100A67267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272BCD82C89CFC100A67267 /* ViewController.swift */; };
+		3272BCDC2C89CFC100A67267 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3272BCDB2C89CFC100A67267 /* Base */; };
+		3272BCDE2C89CFC400A67267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3272BCDD2C89CFC400A67267 /* Assets.xcassets */; };
+		3272BCEA2C89CFC400A67267 /* ai_bookmark_extensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272BCE92C89CFC400A67267 /* ai_bookmark_extensionTests.swift */; };
+		3272BCF42C89CFC400A67267 /* ai_bookmark_extensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272BCF32C89CFC400A67267 /* ai_bookmark_extensionUITests.swift */; };
+		3272BCF62C89CFC400A67267 /* ai_bookmark_extensionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272BCF52C89CFC400A67267 /* ai_bookmark_extensionUITestsLaunchTests.swift */; };
+		3272BCFC2C89CFC400A67267 /* ai-bookmark-extension Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3272BCFB2C89CFC400A67267 /* ai-bookmark-extension Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3272BD012C89CFC400A67267 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3272BD002C89CFC400A67267 /* SafariWebExtensionHandler.swift */; };
+		3272BD042C89CFC400A67267 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 3272BD032C89CFC400A67267 /* _locales */; };
+		3272BD062C89CFC500A67267 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 3272BD052C89CFC500A67267 /* images */; };
+		3272BD082C89CFC500A67267 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 3272BD072C89CFC500A67267 /* manifest.json */; };
+		3272BD0A2C89CFC500A67267 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 3272BD092C89CFC500A67267 /* background.js */; };
+		3272BD0C2C89CFC500A67267 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 3272BD0B2C89CFC500A67267 /* content.js */; };
+		3272BD0E2C89CFC500A67267 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 3272BD0D2C89CFC500A67267 /* popup.html */; };
+		3272BD102C89CFC500A67267 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 3272BD0F2C89CFC500A67267 /* popup.css */; };
+		3272BD122C89CFC500A67267 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 3272BD112C89CFC500A67267 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3272BCE62C89CFC400A67267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3272BCC12C89CFC100A67267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3272BCC82C89CFC100A67267;
+			remoteInfo = "ai-bookmark-extension";
+		};
+		3272BCF02C89CFC400A67267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3272BCC12C89CFC100A67267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3272BCC82C89CFC100A67267;
+			remoteInfo = "ai-bookmark-extension";
+		};
+		3272BCFD2C89CFC400A67267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3272BCC12C89CFC100A67267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3272BCFA2C89CFC400A67267;
+			remoteInfo = "ai-bookmark-extension Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3272BD1A2C89CFC500A67267 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3272BCFC2C89CFC400A67267 /* ai-bookmark-extension Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3272BCC92C89CFC100A67267 /* ai-bookmark-extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ai-bookmark-extension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3272BCCC2C89CFC100A67267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3272BCD02C89CFC100A67267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		3272BCD22C89CFC100A67267 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3272BCD42C89CFC100A67267 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		3272BCD62C89CFC100A67267 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		3272BCD82C89CFC100A67267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3272BCDB2C89CFC100A67267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3272BCDD2C89CFC400A67267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3272BCDF2C89CFC400A67267 /* ai_bookmark_extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ai_bookmark_extension.entitlements; sourceTree = "<group>"; };
+		3272BCE02C89CFC400A67267 /* ai-bookmark-extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ai-bookmark-extension.entitlements"; sourceTree = "<group>"; };
+		3272BCE52C89CFC400A67267 /* ai-bookmark-extensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ai-bookmark-extensionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3272BCE92C89CFC400A67267 /* ai_bookmark_extensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ai_bookmark_extensionTests.swift; sourceTree = "<group>"; };
+		3272BCEF2C89CFC400A67267 /* ai-bookmark-extensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ai-bookmark-extensionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3272BCF32C89CFC400A67267 /* ai_bookmark_extensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ai_bookmark_extensionUITests.swift; sourceTree = "<group>"; };
+		3272BCF52C89CFC400A67267 /* ai_bookmark_extensionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ai_bookmark_extensionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3272BCFB2C89CFC400A67267 /* ai-bookmark-extension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ai-bookmark-extension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3272BD002C89CFC400A67267 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		3272BD032C89CFC400A67267 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		3272BD052C89CFC500A67267 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		3272BD072C89CFC500A67267 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		3272BD092C89CFC500A67267 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		3272BD0B2C89CFC500A67267 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		3272BD0D2C89CFC500A67267 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		3272BD0F2C89CFC500A67267 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		3272BD112C89CFC500A67267 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		3272BD132C89CFC500A67267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3272BD142C89CFC500A67267 /* ai_bookmark_extension_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ai_bookmark_extension_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3272BCC62C89CFC100A67267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3272BCE22C89CFC400A67267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3272BCEC2C89CFC400A67267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3272BCF82C89CFC400A67267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3272BCC02C89CFC100A67267 = {
+			isa = PBXGroup;
+			children = (
+				3272BCCB2C89CFC100A67267 /* ai-bookmark-extension */,
+				3272BCE82C89CFC400A67267 /* ai-bookmark-extensionTests */,
+				3272BCF22C89CFC400A67267 /* ai-bookmark-extensionUITests */,
+				3272BCFF2C89CFC400A67267 /* ai-bookmark-extension Extension */,
+				3272BCCA2C89CFC100A67267 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3272BCCA2C89CFC100A67267 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3272BCC92C89CFC100A67267 /* ai-bookmark-extension.app */,
+				3272BCE52C89CFC400A67267 /* ai-bookmark-extensionTests.xctest */,
+				3272BCEF2C89CFC400A67267 /* ai-bookmark-extensionUITests.xctest */,
+				3272BCFB2C89CFC400A67267 /* ai-bookmark-extension Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3272BCCB2C89CFC100A67267 /* ai-bookmark-extension */ = {
+			isa = PBXGroup;
+			children = (
+				3272BCCC2C89CFC100A67267 /* AppDelegate.swift */,
+				3272BCD82C89CFC100A67267 /* ViewController.swift */,
+				3272BCDA2C89CFC100A67267 /* Main.storyboard */,
+				3272BCDD2C89CFC400A67267 /* Assets.xcassets */,
+				3272BCDF2C89CFC400A67267 /* ai_bookmark_extension.entitlements */,
+				3272BCE02C89CFC400A67267 /* ai-bookmark-extension.entitlements */,
+				3272BCCE2C89CFC100A67267 /* Resources */,
+			);
+			path = "ai-bookmark-extension";
+			sourceTree = "<group>";
+		};
+		3272BCCE2C89CFC100A67267 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3272BCCF2C89CFC100A67267 /* Main.html */,
+				3272BCD22C89CFC100A67267 /* Icon.png */,
+				3272BCD42C89CFC100A67267 /* Style.css */,
+				3272BCD62C89CFC100A67267 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3272BCE82C89CFC400A67267 /* ai-bookmark-extensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3272BCE92C89CFC400A67267 /* ai_bookmark_extensionTests.swift */,
+			);
+			path = "ai-bookmark-extensionTests";
+			sourceTree = "<group>";
+		};
+		3272BCF22C89CFC400A67267 /* ai-bookmark-extensionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3272BCF32C89CFC400A67267 /* ai_bookmark_extensionUITests.swift */,
+				3272BCF52C89CFC400A67267 /* ai_bookmark_extensionUITestsLaunchTests.swift */,
+			);
+			path = "ai-bookmark-extensionUITests";
+			sourceTree = "<group>";
+		};
+		3272BCFF2C89CFC400A67267 /* ai-bookmark-extension Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3272BD002C89CFC400A67267 /* SafariWebExtensionHandler.swift */,
+				3272BD132C89CFC500A67267 /* Info.plist */,
+				3272BD142C89CFC500A67267 /* ai_bookmark_extension_Extension.entitlements */,
+				3272BD022C89CFC400A67267 /* Resources */,
+			);
+			path = "ai-bookmark-extension Extension";
+			sourceTree = "<group>";
+		};
+		3272BD022C89CFC400A67267 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3272BD032C89CFC400A67267 /* _locales */,
+				3272BD052C89CFC500A67267 /* images */,
+				3272BD072C89CFC500A67267 /* manifest.json */,
+				3272BD092C89CFC500A67267 /* background.js */,
+				3272BD0B2C89CFC500A67267 /* content.js */,
+				3272BD0D2C89CFC500A67267 /* popup.html */,
+				3272BD0F2C89CFC500A67267 /* popup.css */,
+				3272BD112C89CFC500A67267 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3272BCC82C89CFC100A67267 /* ai-bookmark-extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3272BD1B2C89CFC500A67267 /* Build configuration list for PBXNativeTarget "ai-bookmark-extension" */;
+			buildPhases = (
+				3272BCC52C89CFC100A67267 /* Sources */,
+				3272BCC62C89CFC100A67267 /* Frameworks */,
+				3272BCC72C89CFC100A67267 /* Resources */,
+				3272BD1A2C89CFC500A67267 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3272BCFE2C89CFC400A67267 /* PBXTargetDependency */,
+			);
+			name = "ai-bookmark-extension";
+			productName = "ai-bookmark-extension";
+			productReference = 3272BCC92C89CFC100A67267 /* ai-bookmark-extension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3272BCE42C89CFC400A67267 /* ai-bookmark-extensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3272BD1E2C89CFC500A67267 /* Build configuration list for PBXNativeTarget "ai-bookmark-extensionTests" */;
+			buildPhases = (
+				3272BCE12C89CFC400A67267 /* Sources */,
+				3272BCE22C89CFC400A67267 /* Frameworks */,
+				3272BCE32C89CFC400A67267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3272BCE72C89CFC400A67267 /* PBXTargetDependency */,
+			);
+			name = "ai-bookmark-extensionTests";
+			productName = "ai-bookmark-extensionTests";
+			productReference = 3272BCE52C89CFC400A67267 /* ai-bookmark-extensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3272BCEE2C89CFC400A67267 /* ai-bookmark-extensionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3272BD212C89CFC500A67267 /* Build configuration list for PBXNativeTarget "ai-bookmark-extensionUITests" */;
+			buildPhases = (
+				3272BCEB2C89CFC400A67267 /* Sources */,
+				3272BCEC2C89CFC400A67267 /* Frameworks */,
+				3272BCED2C89CFC400A67267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3272BCF12C89CFC400A67267 /* PBXTargetDependency */,
+			);
+			name = "ai-bookmark-extensionUITests";
+			productName = "ai-bookmark-extensionUITests";
+			productReference = 3272BCEF2C89CFC400A67267 /* ai-bookmark-extensionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3272BCFA2C89CFC400A67267 /* ai-bookmark-extension Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3272BD172C89CFC500A67267 /* Build configuration list for PBXNativeTarget "ai-bookmark-extension Extension" */;
+			buildPhases = (
+				3272BCF72C89CFC400A67267 /* Sources */,
+				3272BCF82C89CFC400A67267 /* Frameworks */,
+				3272BCF92C89CFC400A67267 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ai-bookmark-extension Extension";
+			productName = "ai-bookmark-extension Extension";
+			productReference = 3272BCFB2C89CFC400A67267 /* ai-bookmark-extension Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3272BCC12C89CFC100A67267 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					3272BCC82C89CFC100A67267 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					3272BCE42C89CFC400A67267 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3272BCC82C89CFC100A67267;
+					};
+					3272BCEE2C89CFC400A67267 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 3272BCC82C89CFC100A67267;
+					};
+					3272BCFA2C89CFC400A67267 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 3272BCC42C89CFC100A67267 /* Build configuration list for PBXProject "ai-bookmark-extension" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3272BCC02C89CFC100A67267;
+			productRefGroup = 3272BCCA2C89CFC100A67267 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3272BCC82C89CFC100A67267 /* ai-bookmark-extension */,
+				3272BCE42C89CFC400A67267 /* ai-bookmark-extensionTests */,
+				3272BCEE2C89CFC400A67267 /* ai-bookmark-extensionUITests */,
+				3272BCFA2C89CFC400A67267 /* ai-bookmark-extension Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3272BCC72C89CFC100A67267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3272BCD32C89CFC100A67267 /* Icon.png in Resources */,
+				3272BCD72C89CFC100A67267 /* Script.js in Resources */,
+				3272BCD12C89CFC100A67267 /* Base in Resources */,
+				3272BCD52C89CFC100A67267 /* Style.css in Resources */,
+				3272BCDE2C89CFC400A67267 /* Assets.xcassets in Resources */,
+				3272BCDC2C89CFC100A67267 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3272BCE32C89CFC400A67267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3272BCED2C89CFC400A67267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3272BCF92C89CFC400A67267 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3272BD0A2C89CFC500A67267 /* background.js in Resources */,
+				3272BD102C89CFC500A67267 /* popup.css in Resources */,
+				3272BD0E2C89CFC500A67267 /* popup.html in Resources */,
+				3272BD062C89CFC500A67267 /* images in Resources */,
+				3272BD082C89CFC500A67267 /* manifest.json in Resources */,
+				3272BD042C89CFC400A67267 /* _locales in Resources */,
+				3272BD0C2C89CFC500A67267 /* content.js in Resources */,
+				3272BD122C89CFC500A67267 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3272BCC52C89CFC100A67267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3272BCD92C89CFC100A67267 /* ViewController.swift in Sources */,
+				3272BCCD2C89CFC100A67267 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3272BCE12C89CFC400A67267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3272BCEA2C89CFC400A67267 /* ai_bookmark_extensionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3272BCEB2C89CFC400A67267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3272BCF62C89CFC400A67267 /* ai_bookmark_extensionUITestsLaunchTests.swift in Sources */,
+				3272BCF42C89CFC400A67267 /* ai_bookmark_extensionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3272BCF72C89CFC400A67267 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3272BD012C89CFC400A67267 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3272BCE72C89CFC400A67267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3272BCC82C89CFC100A67267 /* ai-bookmark-extension */;
+			targetProxy = 3272BCE62C89CFC400A67267 /* PBXContainerItemProxy */;
+		};
+		3272BCF12C89CFC400A67267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3272BCC82C89CFC100A67267 /* ai-bookmark-extension */;
+			targetProxy = 3272BCF02C89CFC400A67267 /* PBXContainerItemProxy */;
+		};
+		3272BCFE2C89CFC400A67267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3272BCFA2C89CFC400A67267 /* ai-bookmark-extension Extension */;
+			targetProxy = 3272BCFD2C89CFC400A67267 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3272BCCF2C89CFC100A67267 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3272BCD02C89CFC100A67267 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		3272BCDA2C89CFC100A67267 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3272BCDB2C89CFC100A67267 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3272BD152C89CFC500A67267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3272BD162C89CFC500A67267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		3272BD182C89CFC500A67267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ai-bookmark-extension Extension/ai_bookmark_extension_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGGD6928EZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ai-bookmark-extension Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ai-bookmark-extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mfy.ai-bookmark-extension.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3272BD192C89CFC500A67267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "ai-bookmark-extension Extension/ai_bookmark_extension_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGGD6928EZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ai-bookmark-extension Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ai-bookmark-extension Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mfy.ai-bookmark-extension.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3272BD1C2C89CFC500A67267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ai-bookmark-extension/ai-bookmark-extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGGD6928EZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ai-bookmark-extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mfy.ai-bookmark-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3272BD1D2C89CFC500A67267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ai-bookmark-extension/ai-bookmark-extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGGD6928EZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ai-bookmark-extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mfy.ai-bookmark-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		3272BD1F2C89CFC500A67267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGGD6928EZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mfy.ai-bookmark-extensionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ai-bookmark-extension.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ai-bookmark-extension";
+			};
+			name = Debug;
+		};
+		3272BD202C89CFC500A67267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGGD6928EZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mfy.ai-bookmark-extensionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ai-bookmark-extension.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ai-bookmark-extension";
+			};
+			name = Release;
+		};
+		3272BD222C89CFC500A67267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGGD6928EZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mfy.ai-bookmark-extensionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ai-bookmark-extension";
+			};
+			name = Debug;
+		};
+		3272BD232C89CFC500A67267 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YGGD6928EZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mfy.ai-bookmark-extensionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ai-bookmark-extension";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3272BCC42C89CFC100A67267 /* Build configuration list for PBXProject "ai-bookmark-extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3272BD152C89CFC500A67267 /* Debug */,
+				3272BD162C89CFC500A67267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3272BD172C89CFC500A67267 /* Build configuration list for PBXNativeTarget "ai-bookmark-extension Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3272BD182C89CFC500A67267 /* Debug */,
+				3272BD192C89CFC500A67267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3272BD1B2C89CFC500A67267 /* Build configuration list for PBXNativeTarget "ai-bookmark-extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3272BD1C2C89CFC500A67267 /* Debug */,
+				3272BD1D2C89CFC500A67267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3272BD1E2C89CFC500A67267 /* Build configuration list for PBXNativeTarget "ai-bookmark-extensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3272BD1F2C89CFC500A67267 /* Debug */,
+				3272BD202C89CFC500A67267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3272BD212C89CFC500A67267 /* Build configuration list for PBXNativeTarget "ai-bookmark-extensionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3272BD222C89CFC500A67267 /* Debug */,
+				3272BD232C89CFC500A67267 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3272BCC12C89CFC100A67267 /* Project object */;
+}
